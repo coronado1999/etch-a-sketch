@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Press+Start+2P&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <div class="container">
+        <h1>Etch A Sketch</h1>
+        <div class="sketch"></div>
+        <span class="circle1"></span>
+        <span class="circle2"></span>
+        <div class="button">
+            <button onclick="changeColor('black')">Black</button>
+            <button onclick="changeColor('blue')">Blue</button>
+            <button onclick="changeColor('red')">Red</button>
+            <button onclick="changeColor('random')">Random</button>
+            <button onclick="changeColor('grey')">Eraser</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+
+    </div>
+
+    <input type="text" placeholder="Grid Size (2-100)" class="gridText" onchange="setSize(this.value)">
+    <button class ="gridBtn">Set Grid Size</button>
+    
+</body>
+<script src="sketch.js"></script>
+</html>

@@ -1,0 +1,84 @@
+html {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    font-family: 'Pacifico', sans-serif;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    display: grid;
+    place-items: center;
+}
+
+.sketch {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 100px solid red;
+    border-radius:10%;
+}
+
+.circle1 {
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.circle2 {
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    font-family:'Pacifico', sans-serif;
+    font-size: 12px;
+}
+
+.button {
+    position:absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    font-family: 'Pacifico', sans-serif;
+    position:absolute;
+    width: 100px;
+    height: 21px;
+    top: 92%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+}
+
+.gridBtn {
+    position:absolute;
+    width: 100px;
+    top: 92%;
+    left: 54.3%;
+    transform: translate(-50%, -50%);
+}
+
+.gridText::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Pacifico', sans-serif;
+    font-size: 12px;
+    opacity: 1; 
+  }
